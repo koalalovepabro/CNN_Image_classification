@@ -1,7 +1,9 @@
 # 🐨코알라의 Kaggle 도전일지🦜
+
+## Dogs vs Cats
 https://www.kaggle.com/c/dogs-vs-cats
 
-## Ver.01 (0.9171) _ 
+### Ver.01 (0.9171) _ 
 - val_loss: 0.2044 , **val_accuracy: 0.9171** , epoch : 36/50 
 - Keras CNN Classification
 - Run on Colab
@@ -14,7 +16,7 @@ https://www.kaggle.com/c/dogs-vs-cats
                                            min_lr=0.00001  
                                            )` 
                                            
-## Ver.02 (0.7952)
+### Ver.02 (0.7952)
 - val_loss: 0.4513 , **val_accuracy: 0.7952** , epoch : 6/50
 - Keras CNN Classification
 - Run on Colab
@@ -29,7 +31,7 @@ https://www.kaggle.com/c/dogs-vs-cats
                                            min_lr=0.00001  
                                            )`
                                            
-## Ver.03 (0.9143)
+### Ver.03 (0.9143)
 - val_loss: 0.2044 , **val_accuracy: 0.9171** , epoch : 36/50 
 - Keras CNN Classification
 - **Run on Kaggle ( GPU )**
