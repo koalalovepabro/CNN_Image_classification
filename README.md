@@ -1,6 +1,6 @@
 # 🐨코알라의 Kaggle 도전일지🦜
 
-## [Dogs vs Cats][https://www.kaggle.com/c/dogs-vs-cats]
+## [Dogs vs Cats](https://www.kaggle.com/c/dogs-vs-cats)
 ---
 ### #01. Keras CNN Classification
 ### Ver.01 (0.9171)
