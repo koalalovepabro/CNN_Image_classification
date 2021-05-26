@@ -3,8 +3,8 @@
 ## Dogs vs Cats
 https://www.kaggle.com/c/dogs-vs-cats
 
-*#01.Keras CNN Classification*
-### Ver.01 (0.9171)
+### 01.Keras CNN Classification
+#### Ver.01 (0.9171)
 - val_loss: 0.2044 , **val_accuracy: 0.9171** , epoch : 36/50 
 - Keras CNN Classification
 - Run on Colab
