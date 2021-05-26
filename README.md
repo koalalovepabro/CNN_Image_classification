@@ -32,7 +32,7 @@
                                            )`
                                            
 ### Ver.03 (0.9143)
-- val_loss: 0.2044 , **val_accuracy: 0.9171** , epoch : 36/50 
+- val_loss: 0.2044 , **val_accuracy: 0.9143** , epoch : 38/50 
 - Keras CNN Classification
 - **Run on Kaggle ( GPU )**
 
@@ -46,7 +46,7 @@
                                            )` 
  ---
 ### #02. [Feature extractor fine tuning with Keras](https://www.kaggle.com/angqx95/feature-extractor-fine-tuning-with-keras)
-### Ver.01 (0.9171)
+### Ver.01 (0.9844)
 - val_loss: 0.0345 , **val_accuracy: 0.9844** , epoch : 5
 - Run on Kaggle ( GPU )
 - MGD(Mini-Batch Gradient Descent)
