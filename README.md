@@ -45,7 +45,7 @@
                                            min_lr=0.00001  
                                            )` 
  ---
-### #02. Feature extractor fine tuning with Keras
+### #02. [Feature extractor fine tuning with Keras](https://www.kaggle.com/angqx95/feature-extractor-fine-tuning-with-keras)
 ### Ver.01 (0.9171)
 - val_loss: 0.0345 , **val_accuracy: 0.9844** , epoch : 5
 - Run on Kaggle ( GPU )
@@ -55,5 +55,5 @@
 - compare "Custom CNN / Transfer Leearn(VGG16) / Fine Tune(ResNet)
 
 ---
-### #03. 
-
+### #03. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
+### Ver.01
