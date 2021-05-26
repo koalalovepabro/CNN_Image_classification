@@ -1,10 +1,9 @@
 # 🐨코알라의 Kaggle 도전일지🦜
 
-## Dogs vs Cats
-https://www.kaggle.com/c/dogs-vs-cats
+## [Dogs vs Cats][https://www.kaggle.com/c/dogs-vs-cats]
 ---
 ### #01. Keras CNN Classification
-#### Ver.01 (0.9171)
+### Ver.01 (0.9171)
 - val_loss: 0.2044 , **val_accuracy: 0.9171** , epoch : 36/50 
 - Keras CNN Classification
 - Run on Colab
@@ -45,4 +44,16 @@ https://www.kaggle.com/c/dogs-vs-cats
                                            factor=0.5,  
                                            min_lr=0.00001  
                                            )` 
+ ---
+### #02. Feature extractor fine tuning with Keras
+### Ver.01 (0.9171)
+- val_loss: 0.0345 , **val_accuracy: 0.9844** , epoch : 5
+- Run on Kaggle ( GPU )
+- MGD(Mini-Batch Gradient Descent)
+- Feature Extractor : VGG16 + Logistic Regression
+- Fine Tuning : ResNet50
+- compare "Custom CNN / Transfer Leearn(VGG16) / Fine Tune(ResNet)
+
+---
+### #03. 
 
