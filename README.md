@@ -56,7 +56,7 @@
 
 ---
 ### #03. [Keras CNN, Transfer Learnings](https://www.kaggle.com/serkanpeldek/keras-cnn-transfer-learnings-on-cats-dogs-dataset)
-### Ver.01
+### Ver.01 (0.9468)
 - **val_accuracy: 0.9468**
 - Run on Kaggle ( GPU )
 - Feature Extractor : VGG16 + LogisticRegression
