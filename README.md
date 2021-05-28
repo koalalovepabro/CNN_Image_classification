@@ -44,8 +44,18 @@
                                            factor=0.5,  
                                            min_lr=0.00001  
                                            )` 
- ---
-### #02. [Feature extractor fine tuning with Keras](https://www.kaggle.com/angqx95/feature-extractor-fine-tuning-with-keras)
+
+---
+### #02. [Keras CNN, Transfer Learnings](https://www.kaggle.com/serkanpeldek/keras-cnn-transfer-learnings-on-cats-dogs-dataset)
+### Ver.01 (0.9468)
+- **val_accuracy: 0.9468**
+- Run on Kaggle ( GPU )
+- Feature Extractor : VGG16 + LogisticRegression
+- Fine Tuning : None
+- `cv_scores=cross_val_score(LogisticRegression(solver="lbfgs"), features, targets, cv=3 )`
+
+---
+### #03. [Feature extractor fine tuning with Keras](https://www.kaggle.com/angqx95/feature-extractor-fine-tuning-with-keras)
 ### Ver.01 (0.9844)
 - val_loss: 0.0345 , **val_accuracy: 0.9844** @epoch 5, epochs : 5
 - Run on Kaggle ( GPU )
@@ -55,13 +65,5 @@
 - compare "Custom CNN / Transfer Leearn(VGG16) / Fine Tune(ResNet)
 
 ---
-### #03. [Keras CNN, Transfer Learnings](https://www.kaggle.com/serkanpeldek/keras-cnn-transfer-learnings-on-cats-dogs-dataset)
-### Ver.01 (0.9468)
-- **val_accuracy: 0.9468**
-- Run on Kaggle ( GPU )
-- Feature Extractor : VGG16 + LogisticRegression
-- Fine Tuning : None
-- `cv_scores=cross_val_score(LogisticRegression(solver="lbfgs"), features, targets, cv=3 )`
----
 ### #04. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
-### Ver.01
+### Ver.01 (0.992)
