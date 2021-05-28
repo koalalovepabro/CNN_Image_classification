@@ -55,5 +55,13 @@
 - compare "Custom CNN / Transfer Leearn(VGG16) / Fine Tune(ResNet)
 
 ---
-### #03. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
+### #03. [Keras CNN, Transfer Learnings](https://www.kaggle.com/serkanpeldek/keras-cnn-transfer-learnings-on-cats-dogs-dataset)
+### Ver.01
+- **val_accuracy: 0.9468**
+- Run on Kaggle ( GPU )
+- Feature Extractor : VGG16 + LogisticRegression
+- Fine Tuning : None
+- `cv_scores=cross_val_score(LogisticRegression(solver="lbfgs"), features, targets, cv=3 )`
+---
+### #04. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
 ### Ver.01
