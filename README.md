@@ -95,7 +95,7 @@
 
 ---
 ### #04. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
-### Ver.01 (0.982)
-- **val_accuracy: 0.9892** @epoch 5, epochs : 5
+### Ver.01 (0.9892)
+- val_loss: 0.0373, **val_accuracy: 0.9892** @epoch 8, epochs : 13/15
 - Run on Kaggle ( GPU )
 - **Building model for transfer learning on top of pretrained ResNet50 Model**
