@@ -21,7 +21,7 @@
 - Keras CNN Classification
 - Run on Colab
 
-- **학습조기종료, 학습률 자c동감소 조건 변경**
+- **학습조기종료, 학습률 자동감소 조건 변경**
 - `earlystop = EarlyStopping(monitor='val_accuracy', patience=2)`
 - `learning_rate_reduction = ReduceLROnPlateau  
 (monitor='val_loss',  
@@ -44,7 +44,23 @@
                                            factor=0.5,  
                                            min_lr=0.00001  
                                            )` 
+                                           
+                                           
+### Ver.04 (0.)
+- val_loss:  , **val_accuracy: 0.** @epoch , epochs : /50
+- Keras CNN Classification
+- Run on Colab
 
+- **batch_size를 5에서 128로 변경**
+- **학습조기종료, 학습률 자동감소 조건 변경**
+- `earlystop = EarlyStopping(monitor='val_accuracy', patience=10)`
+- `learning_rate_reduction = ReduceLROnPlateau  
+(monitor='val_accuracy',  
+                                           patience=5,  
+                                           verbose=1,  
+                                           factor=0.5,  
+                                           min_lr=0.00001  
+                                           )`
 ---
 ### #02. [Keras CNN, Transfer Learnings](https://www.kaggle.com/serkanpeldek/keras-cnn-transfer-learnings-on-cats-dogs-dataset)
 ### Ver.01 (0.9468)
