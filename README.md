@@ -45,14 +45,28 @@
                                            min_lr=0.00001  
                                            )` 
                                            
-                                           
 ### Ver.04 (0.)
+- val_loss:  , **val_accuracy: 0.** @epoch , epochs : /50
+- Keras CNN Classification
+- Run on Kaggle ( GPU )
+- **batch_size를 5에서 128로 변경**
+- `earlystop = EarlyStopping(monitor='val_loss', patience=10)`
+- `learning_rate_reduction = ReduceLROnPlateau  
+(monitor='val_accuracy',  
+                                           patience=2,  
+                                           verbose=1,  
+                                           factor=0.5,  
+                                           min_lr=0.00001  
+                                           )`                          
+                                           
+### Ver.05 (0.)
 - val_loss:  , **val_accuracy: 0.** @epoch , epochs : /50
 - Keras CNN Classification
 - Run on Colab
 
 - **batch_size를 5에서 128로 변경**
 - **학습조기종료, 학습률 자동감소 조건 변경**
+- **(EarlyStopping과 ReduceLROnPlateau의 모니터 모두 val_accuracy)**
 - `earlystop = EarlyStopping(monitor='val_accuracy', patience=10)`
 - `learning_rate_reduction = ReduceLROnPlateau  
 (monitor='val_accuracy',  
@@ -82,4 +96,7 @@
 
 ---
 ### #04. [Vanila CNN & ResNet50](https://www.kaggle.com/bhuvanchennoju/hey-siri-is-it-a-or-f1-0-992/output)
-### Ver.01 (0.992)
+### Ver.01 (0.982)
+- **val_accuracy: 0.9892** @epoch 5, epochs : 5
+- Run on Kaggle ( GPU )
+- **Building model for transfer learning on top of pretrained ResNet50 Model**
