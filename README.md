@@ -63,7 +63,6 @@
 - val_loss:  , **val_accuracy: 0.** @epoch , epochs : /50
 - Keras CNN Classification
 - Run on Colab
-
 - **batch_size를 5에서 128로 변경**
 - **학습조기종료, 학습률 자동감소 조건 변경**
 - **(EarlyStopping과 ReduceLROnPlateau의 모니터 모두 val_accuracy)**
