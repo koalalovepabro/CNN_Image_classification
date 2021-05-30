@@ -45,8 +45,8 @@
                                            min_lr=0.00001  
                                            )` 
                                            
-### Ver.04 (0.)
-- val_loss:  , **val_accuracy: 0.** @epoch , epochs : /50
+### Ver.04 (0.9189)
+- val_loss: 0.2465, **val_accuracy: 0.9189** @epoch 37, epochs : 37/50
 - Keras CNN Classification
 - Run on Kaggle ( GPU )
 - **batch_size를 5에서 128로 변경**
